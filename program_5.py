@@ -8,7 +8,6 @@
 def hot_dog_order(hotDogType, cheese, peppers, onions):
 
     ######################
-    # write your code here #
 
     if hotDogType == 'Hot Dog':
         hotDogCost = 3.50
@@ -23,7 +22,6 @@ def hot_dog_order(hotDogType, cheese, peppers, onions):
         hotDogCost += 0.75
     if onions:
         hotDogCost += 1.00
-
 
     tax = hotDogCost * 0.07
     totalCost = hotDogCost + tax
@@ -40,4 +38,4 @@ print(f"Hot dog cost: ${cost:.2f}")
 print(f"Tax: ${tax:.2f}")
 print(f"Total cost: ${total:.2f}")  
 
-    ######################
+    ######################C
